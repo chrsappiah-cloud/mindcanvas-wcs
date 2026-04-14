@@ -1,0 +1,36 @@
+{
+  "buttons": [
+    "Explore Programs",
+    "Meet the Founder",
+    "View Featured Work",
+    "Explore the Concept Atlas",
+    "Explore the Pattern Library",
+    "Bring Global Learning to Your School",
+    "Build Humane Innovation Together",
+    "Launch an Innovation Project",
+    "Start a Partnership Conversation",
+    "Browse Resources",
+    "Send Your Enquiry"
+  ],
+  "form": {
+    "contactHelper": "Share a few details about your enquiry and the team will respond as soon as possible.",
+    "newsletterHelper": "Receive updates, ideas, and opportunities from the World Class Scholars community."
+  },
+  "footer": {
+    "mission": "World Class Scholars connects education, creativity, and global community through inclusive learning experiences designed for a more human future.",
+    "navigation": [
+      "About",
+      "Programs",
+      "Concept Atlas",
+      "Gallery",
+      "Leadership",
+      "Partnerships",
+      "Resources",
+      "Contact",
+      "FAQ",
+      "Privacy",
+      "Terms",
+      "Accessibility"
+    ]
+  }
+}

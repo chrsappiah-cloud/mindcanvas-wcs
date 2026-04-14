@@ -1,0 +1,18 @@
+{
+  "hero": {
+    "headline": "Resources for learning, leadership, and innovation.",
+    "subheading": "Explore articles, tools, downloads, and media designed to support educators, students, partners, and change-makers."
+  },
+  "intro": {
+    "heading": "Knowledge you can use.",
+    "body": "Resources brings together ideas, frameworks, reflections, and practical tools that help people extend the work of World Class Scholars into classrooms, communities, and collaborative projects."
+  },
+  "categories": [
+    "Articles and essays",
+    "Toolkits and frameworks",
+    "Downloadable guides",
+    "Podcast and media features",
+    "Pattern Library resources"
+  ],
+  "cta": "Browse Resources"
+}

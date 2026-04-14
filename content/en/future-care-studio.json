@@ -1,0 +1,21 @@
+{
+  "hero": {
+    "headline": "Innovation shaped by empathy, care, and dignity.",
+    "subheading": "Future Care Studio brings together learning, advocacy, and creative problem-solving around disability inclusion, mental health, dementia awareness, and humane systems design."
+  },
+  "whyItMatters": {
+    "heading": "A different way to think about innovation.",
+    "body": "Some of the most important innovations begin with listening: listening to lived experience, to vulnerability, to systems that fail people, and to the everyday realities of care. Future Care Studio creates space for learners and partners to respond with empathy, imagination, and practical action."
+  },
+  "whatThisWorkIncludes": {
+    "heading": "What this work includes.",
+    "bullets": [
+      "Disability justice and inclusive participation",
+      "Mental health awareness and wellbeing dialogue",
+      "Dementia care and memory-informed engagement",
+      "Intergenerational and community-centred design",
+      "Creative approaches to social impact"
+    ],
+    "cta": "Build Humane Innovation Together"
+  }
+}

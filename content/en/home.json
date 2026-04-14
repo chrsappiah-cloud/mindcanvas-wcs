@@ -1,0 +1,60 @@
+{
+  "hero": {
+    "eyebrow": "Global learning. Creative futures. Human-centred innovation.",
+    "headline": "Where education, creativity, and global connection shape the next generation.",
+    "subheading": "World Class Scholars brings students, educators, and communities together across borders to learn, create, and build futures rooted in inclusion, imagination, and impact.",
+    "primaryCta": "Explore Programs",
+    "secondaryCta": "Partner With Us"
+  },
+  "mission": {
+    "heading": "Learning without borders.",
+    "body": "World Class Scholars was built on a simple belief: every learner deserves access to meaningful educational experiences, no matter where they live, what language they speak, or what barriers stand in their way. By connecting classrooms, cultures, and ideas in real time, the platform opens space for deeper understanding, wider opportunity, and a more connected world."
+  },
+  "impact": {
+    "heading": "A growing global learning community.",
+    "intro": "World Class Scholars connects learners and educators across a wide international network, creating space for collaboration, curiosity, and shared discovery.",
+    "stats": [
+      "100+ countries reached",
+      "1,000+ schools connected",
+      "Real-time multilingual learning",
+      "Free access to global participation"
+    ]
+  },
+  "programsPreview": {
+    "heading": "Programs that connect ideas with action.",
+    "intro": "From live international classrooms to digital arts, future care, and innovation practice, each program is designed to help learners engage the world with confidence, creativity, and purpose.",
+    "teasers": [
+      {
+        "title": "Global Classroom",
+        "desc": "Live, intercultural learning experiences that connect students and teachers across countries and languages."
+      },
+      {
+        "title": "Digital Arts Lab",
+        "desc": "A creative space for storytelling, design, media, and digital expression."
+      },
+      {
+        "title": "Future Care Studio",
+        "desc": "Learning and innovation shaped by dignity, empathy, wellbeing, and inclusive care."
+      },
+      {
+        "title": "Innovation Studio",
+        "desc": "Project-based experimentation for learners, educators, and collaborators building ideas that matter."
+      }
+    ]
+  },
+  "conceptAtlas": {
+    "heading": "Ideas that turn change into practice.",
+    "body": "The Concept Atlas transforms powerful ideas from systems change and innovation into accessible tools for schools, creators, and communities. It is a living space for frameworks, patterns, and practical insight that help people move from inspiration to action.",
+    "cta": "Explore the Concept Atlas"
+  },
+  "founderSpotlight": {
+    "heading": "Led by vision, grounded in humanity.",
+    "body": "Under the leadership of Dr Christopher Appiah-Thompson, World Class Scholars is shaped by a commitment to education, social justice, creative expression, and the dignity of every person. His work connects public advocacy, humane innovation, disability inclusion, mental health, dementia care, and storytelling into a wider vision for transformative learning.",
+    "cta": "Meet the Founder"
+  },
+  "partnershipCta": {
+    "heading": "Build the future with us.",
+    "body": "Whether you are a school, nonprofit, cultural institution, care organization, or funding partner, World Class Scholars offers meaningful ways to collaborate across education, creativity, and impact.",
+    "cta": "Start a Partnership Conversation"
+  }
+}

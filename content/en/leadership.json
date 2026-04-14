@@ -1,0 +1,23 @@
+{
+  "hero": {
+    "eyebrow": "Leadership",
+    "headline": "Leadership rooted in equity, creativity, and global impact.",
+    "subheading": "World Class Scholars is led by Dr Christopher Appiah-Thompson, whose work brings together education, advocacy, digital media, disability inclusion, dementia care, mental health awareness, and social justice."
+  },
+  "biography": {
+    "heading": "About the founder.",
+    "body": "Dr Christopher Appiah-Thompson brings a public mission shaped by scholarship, creative practice, advocacy, and a deep commitment to human dignity. His leadership reflects a belief that education should not only inform, but also heal, connect, empower, and open new possibilities for people and communities."
+  },
+  "strategicThemes": {
+    "heading": "Areas of focus.",
+    "bullets": [
+      "Global education and inclusive learning",
+      "Disability justice and dignity",
+      "Mental health and wellbeing",
+      "Dementia care and memory-informed practice",
+      "Digital storytelling and cultural expression",
+      "Social impact leadership"
+    ],
+    "cta": "Invite Dr Appiah-Thompson to Collaborate"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "hero": {
+    "headline": "Start a conversation about learning, creativity, and impact.",
+    "subheading": "Whether you are exploring a school partnership, media opportunity, event collaboration, funding conversation, or general enquiry, the team would be glad to hear from you."
+  },
+  "intro": {
+    "heading": "Let’s connect.",
+    "body": "The most meaningful work often begins with a conversation. Reach out to discuss programs, partnerships, speaking opportunities, collaborative projects, or ways to support the mission of World Class Scholars."
+  },
+  "enquiryCategories": [
+    "School partnership",
+    "Program enquiry",
+    "Media or speaking request",
+    "Funding or sponsorship",
+    "General contact"
+  ],
+  "cta": "Send Your Enquiry"
+}

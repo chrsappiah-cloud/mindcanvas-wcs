@@ -1,0 +1,21 @@
+{
+  "hero": {
+    "headline": "A studio for digital storytelling, media, and imagination.",
+    "subheading": "Digital Arts Lab helps learners explore identity, culture, memory, sound, image, and design through contemporary creative practice."
+  },
+  "whyItMatters": {
+    "heading": "Why digital arts matter.",
+    "body": "Creative expression is not separate from learning; it is one of its most powerful forms. Digital Arts Lab invites students to think critically, communicate visually, and create original work that reflects who they are, what they care about, and how they see the world."
+  },
+  "whatLearnersExplore": {
+    "heading": "What learners explore.",
+    "bullets": [
+      "Digital storytelling",
+      "Visual culture and design",
+      "Podcasting and audio narratives",
+      "Creative media production",
+      "Reflective and collaborative arts practice"
+    ],
+    "cta": "Explore the Digital Arts Lab"
+  }
+}

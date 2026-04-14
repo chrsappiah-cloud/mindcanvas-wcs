@@ -1,0 +1,21 @@
+{
+  "hero": {
+    "headline": "Partnerships that expand learning and impact.",
+    "subheading": "World Class Scholars works with schools, nonprofits, institutions, and mission-aligned collaborators who believe education, creativity, and inclusion can drive meaningful change."
+  },
+  "whyPartner": {
+    "heading": "Why partner with us.",
+    "body": "Partnership with World Class Scholars offers more than visibility. It creates opportunities to co-design learning experiences, support inclusive innovation, build cross-sector initiatives, and reach communities through work that is practical, global, and values-led."
+  },
+  "partnerTypes": {
+    "heading": "Who we work with.",
+    "bullets": [
+      "Schools and universities",
+      "Community and nonprofit organizations",
+      "Arts and media collaborators",
+      "Disability, wellbeing, and care-sector organizations",
+      "Strategic sponsors and philanthropic supporters"
+    ],
+    "cta": "Start a Partnership Conversation"
+  }
+}

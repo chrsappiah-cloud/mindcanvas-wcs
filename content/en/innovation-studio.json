@@ -1,0 +1,21 @@
+{
+  "hero": {
+    "headline": "From ideas to experiments to real-world change.",
+    "subheading": "Innovation Studio supports learners, educators, and collaborators as they test ideas, build prototypes, reflect on outcomes, and shape solutions that matter."
+  },
+  "howInnovationHappens": {
+    "heading": "How innovation happens here.",
+    "body": "Innovation Studio is built around curiosity, iteration, collaboration, and reflection. It encourages participants to move beyond passive learning and into active making, where questions become prototypes and imagination becomes practical change."
+  },
+  "whatParticipantsDevelop": {
+    "heading": "What participants develop.",
+    "bullets": [
+      "Systems thinking",
+      "Creative confidence",
+      "Collaborative problem-solving",
+      "Design and experimentation habits",
+      "Real-world project experience"
+    ],
+    "cta": "Launch an Innovation Project"
+  }
+}

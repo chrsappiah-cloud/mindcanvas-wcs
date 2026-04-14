@@ -1,0 +1,21 @@
+{
+  "hero": {
+    "headline": "Reusable ideas for learning, leadership, and transformation.",
+    "subheading": "Pattern Library translates complex concepts from innovation and systems-change thinking into practical tools that schools, creators, and institutions can apply."
+  },
+  "whyPatternsMatter": {
+    "heading": "Why patterns matter.",
+    "body": "The strongest ideas become more valuable when they can be reused, adapted, and taught. Pattern Library turns insight into action by offering frameworks that help people understand change, design better systems, and build with greater clarity."
+  },
+  "whatYouWillFind": {
+    "heading": "What you will find here.",
+    "bullets": [
+      "Frameworks for collaboration and culture",
+      "Readiness and maturity models",
+      "Strategy and systems-thinking tools",
+      "Case-inspired prompts and lessons",
+      "Practical methods for schools and teams"
+    ],
+    "cta": "Explore the Pattern Library"
+  }
+}

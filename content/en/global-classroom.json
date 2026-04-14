@@ -1,0 +1,24 @@
+{
+  "hero": {
+    "headline": "Bring the world into your classroom.",
+    "subheading": "Global Classroom connects students and educators across countries through real-time, multilingual learning experiences that expand cultural understanding and academic confidence."
+  },
+  "whyItMatters": {
+    "heading": "Why Global Classroom matters.",
+    "body": "When students engage directly with people beyond their own immediate environment, learning becomes more alive, more relevant, and more expansive. Global Classroom helps schools move beyond isolated instruction into shared inquiry, intercultural understanding, and collaborative discovery."
+  },
+  "whoItIsFor": {
+    "heading": "Who it is for.",
+    "body": "Global Classroom is designed for schools, teachers, and education leaders who want to give learners direct access to a wider world of ideas, experiences, and voices."
+  },
+  "outcomes": {
+    "heading": "What participants gain.",
+    "bullets": [
+      "Greater intercultural awareness",
+      "Stronger communication and listening skills",
+      "More confidence in global dialogue",
+      "A richer sense of shared humanity"
+    ],
+    "cta": "Bring Global Learning to Your School"
+  }
+}

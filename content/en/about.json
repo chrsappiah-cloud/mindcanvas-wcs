@@ -1,0 +1,29 @@
+{
+  "hero": {
+    "eyebrow": "About World Class Scholars",
+    "headline": "A platform for connected learning, creative growth, and global understanding.",
+    "subheading": "World Class Scholars creates pathways for students and educators to engage across borders through inclusive, real-time, multilingual experiences that expand opportunity and deepen human connection."
+  },
+  "originStory": {
+    "heading": "Why World Class Scholars exists.",
+    "body": "Too many learners are separated from life-changing educational opportunities by distance, language, resources, or systems that were never built with them in mind. World Class Scholars was created to challenge those limits by making global learning more accessible, more inclusive, and more human."
+  },
+  "howItWorks": {
+    "heading": "How the platform works.",
+    "body": "World Class Scholars connects schools, teachers, students, and communities through live digital experiences designed for collaboration, exchange, and discovery. The model combines accessible participation with international reach, helping classrooms move beyond isolation into active global dialogue."
+  },
+  "values": {
+    "heading": "What we stand for.",
+    "blocks": [
+      { "title": "Access", "desc": "Learning should not be limited by geography, language, or economic circumstance." },
+      { "title": "Inclusion", "desc": "Every learner deserves to be seen, supported, and invited into the conversation." },
+      { "title": "Creativity", "desc": "Imagination is essential to education, leadership, and problem-solving." },
+      { "title": "Dignity", "desc": "Innovation must serve people with care, respect, and responsibility." },
+      { "title": "Connection", "desc": "When people learn across borders, they build empathy as well as knowledge." }
+    ]
+  },
+  "whyNow": {
+    "heading": "Why this work matters now.",
+    "body": "The future demands learners who can think globally, create boldly, and respond to complex human challenges with both intelligence and compassion. World Class Scholars exists to prepare that future by making education more connected, more creative, and more relevant to the world people actually live in."
+  }
+}
