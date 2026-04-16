@@ -1,0 +1,6 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 16, "column": 0}, "map": {"version":3,"sources":["turbopack:///[project]/Downloads/wcs-platform-2/src/middleware.ts"],"sourcesContent":["import { NextRequest, NextResponse } from 'next/server';\n\nexport function middleware(request: NextRequest) {\n  // Example: i18n redirect based on Accept-Language header\n  // (Extend this for real i18n or auth logic)\n  // const lang = request.headers.get('accept-language')?.split(',')[0] || 'en';\n  // if (!request.nextUrl.pathname.startsWith(`/${lang}`)) {\n  //   return NextResponse.redirect(new URL(`/${lang}${request.nextUrl.pathname}`, request.url));\n  // }\n  return NextResponse.next();\n}\n\nexport const config = {\n  matcher: [\n    // Apply to all routes\n    '/((?!_next|api|static|favicon.ico).*)',\n  ],\n};\n"],"names":["middleware","request","next","config","matcher"],"mappings":";;;;;;AAAA;AAAA;;AAEO,SAASA,WAAWC,OAAoB;IAC7C,yDAAyD;IACzD,4CAA4C;IAC5C,8EAA8E;IAC9E,0DAA0D;IAC1D,+FAA+F;IAC/F,IAAI;IACJ,OAAO,6MAAY,CAACC,IAAI;AAC1B;AAEO,MAAMC,SAAS;IACpBC,SAAS;QACP,sBAAsB;QACtB;KACD;AACH"}}]
+}
