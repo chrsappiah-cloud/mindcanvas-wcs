@@ -18,3 +18,6 @@ jobs:
     - name: Build with xcodebuild
       run: |
         xcodebuild -scheme "mindcanvas" -sdk iphonesimulator -destination 'platform=iOS Simulator,name=iPhone 15,OS=latest' build
+    - name: Run tests with xcodebuild
+      run: |
+        xcodebuild test -scheme "mindcanvas" -sdk iphonesimulator -destination 'platform=iOS Simulator,name=iPhone 15,OS=latest'
