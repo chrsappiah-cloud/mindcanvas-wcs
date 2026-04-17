@@ -1,0 +1,68 @@
+{
+  "": {
+    "swift-dependencies": "/Users/christopherappiah-thompson/Downloads/wcs-platform-2/mindcanvas/MindCanvasXcodeApp/.build/index-build/arm64-apple-macosx/debug/MindCanvasXcodeApp.build/primary.swiftdeps"
+  },
+  "/Users/christopherappiah-thompson/Downloads/wcs-platform-2/mindcanvas/MindCanvasXcodeApp/Sources/CloudKitManager.swift": {
+    "dependencies": "/Users/christopherappiah-thompson/Downloads/wcs-platform-2/mindcanvas/MindCanvasXcodeApp/.build/index-build/arm64-apple-macosx/debug/MindCanvasXcodeApp.build/CloudKitManager.d",
+    "object": "/Users/christopherappiah-thompson/Downloads/wcs-platform-2/mindcanvas/MindCanvasXcodeApp/.build/index-build/arm64-apple-macosx/debug/MindCanvasXcodeApp.build/CloudKitManager.swift.o",
+    "swiftmodule": "/Users/christopherappiah-thompson/Downloads/wcs-platform-2/mindcanvas/MindCanvasXcodeApp/.build/index-build/arm64-apple-macosx/debug/MindCanvasXcodeApp.build/CloudKitManager~partial.swiftmodule",
+    "swift-dependencies": "/Users/christopherappiah-thompson/Downloads/wcs-platform-2/mindcanvas/MindCanvasXcodeApp/.build/index-build/arm64-apple-macosx/debug/MindCanvasXcodeApp.build/CloudKitManager.swiftdeps",
+    "diagnostics": "/Users/christopherappiah-thompson/Downloads/wcs-platform-2/mindcanvas/MindCanvasXcodeApp/.build/index-build/arm64-apple-macosx/debug/MindCanvasXcodeApp.build/CloudKitManager.dia"
+  },
+  "/Users/christopherappiah-thompson/Downloads/wcs-platform-2/mindcanvas/MindCanvasXcodeApp/Sources/CreativeStudioView.swift": {
+    "dependencies": "/Users/christopherappiah-thompson/Downloads/wcs-platform-2/mindcanvas/MindCanvasXcodeApp/.build/index-build/arm64-apple-macosx/debug/MindCanvasXcodeApp.build/CreativeStudioView.d",
+    "object": "/Users/christopherappiah-thompson/Downloads/wcs-platform-2/mindcanvas/MindCanvasXcodeApp/.build/index-build/arm64-apple-macosx/debug/MindCanvasXcodeApp.build/CreativeStudioView.swift.o",
+    "swiftmodule": "/Users/christopherappiah-thompson/Downloads/wcs-platform-2/mindcanvas/MindCanvasXcodeApp/.build/index-build/arm64-apple-macosx/debug/MindCanvasXcodeApp.build/CreativeStudioView~partial.swiftmodule",
+    "swift-dependencies": "/Users/christopherappiah-thompson/Downloads/wcs-platform-2/mindcanvas/MindCanvasXcodeApp/.build/index-build/arm64-apple-macosx/debug/MindCanvasXcodeApp.build/CreativeStudioView.swiftdeps",
+    "diagnostics": "/Users/christopherappiah-thompson/Downloads/wcs-platform-2/mindcanvas/MindCanvasXcodeApp/.build/index-build/arm64-apple-macosx/debug/MindCanvasXcodeApp.build/CreativeStudioView.dia"
+  },
+  "/Users/christopherappiah-thompson/Downloads/wcs-platform-2/mindcanvas/MindCanvasXcodeApp/Sources/HomeDashboardView.swift": {
+    "dependencies": "/Users/christopherappiah-thompson/Downloads/wcs-platform-2/mindcanvas/MindCanvasXcodeApp/.build/index-build/arm64-apple-macosx/debug/MindCanvasXcodeApp.build/HomeDashboardView.d",
+    "object": "/Users/christopherappiah-thompson/Downloads/wcs-platform-2/mindcanvas/MindCanvasXcodeApp/.build/index-build/arm64-apple-macosx/debug/MindCanvasXcodeApp.build/HomeDashboardView.swift.o",
+    "swiftmodule": "/Users/christopherappiah-thompson/Downloads/wcs-platform-2/mindcanvas/MindCanvasXcodeApp/.build/index-build/arm64-apple-macosx/debug/MindCanvasXcodeApp.build/HomeDashboardView~partial.swiftmodule",
+    "swift-dependencies": "/Users/christopherappiah-thompson/Downloads/wcs-platform-2/mindcanvas/MindCanvasXcodeApp/.build/index-build/arm64-apple-macosx/debug/MindCanvasXcodeApp.build/HomeDashboardView.swiftdeps",
+    "diagnostics": "/Users/christopherappiah-thompson/Downloads/wcs-platform-2/mindcanvas/MindCanvasXcodeApp/.build/index-build/arm64-apple-macosx/debug/MindCanvasXcodeApp.build/HomeDashboardView.dia"
+  },
+  "/Users/christopherappiah-thompson/Downloads/wcs-platform-2/mindcanvas/MindCanvasXcodeApp/Sources/KindStepsView.swift": {
+    "dependencies": "/Users/christopherappiah-thompson/Downloads/wcs-platform-2/mindcanvas/MindCanvasXcodeApp/.build/index-build/arm64-apple-macosx/debug/MindCanvasXcodeApp.build/KindStepsView.d",
+    "object": "/Users/christopherappiah-thompson/Downloads/wcs-platform-2/mindcanvas/MindCanvasXcodeApp/.build/index-build/arm64-apple-macosx/debug/MindCanvasXcodeApp.build/KindStepsView.swift.o",
+    "swiftmodule": "/Users/christopherappiah-thompson/Downloads/wcs-platform-2/mindcanvas/MindCanvasXcodeApp/.build/index-build/arm64-apple-macosx/debug/MindCanvasXcodeApp.build/KindStepsView~partial.swiftmodule",
+    "swift-dependencies": "/Users/christopherappiah-thompson/Downloads/wcs-platform-2/mindcanvas/MindCanvasXcodeApp/.build/index-build/arm64-apple-macosx/debug/MindCanvasXcodeApp.build/KindStepsView.swiftdeps",
+    "diagnostics": "/Users/christopherappiah-thompson/Downloads/wcs-platform-2/mindcanvas/MindCanvasXcodeApp/.build/index-build/arm64-apple-macosx/debug/MindCanvasXcodeApp.build/KindStepsView.dia"
+  },
+  "/Users/christopherappiah-thompson/Downloads/wcs-platform-2/mindcanvas/MindCanvasXcodeApp/Sources/MemoryCardView.swift": {
+    "dependencies": "/Users/christopherappiah-thompson/Downloads/wcs-platform-2/mindcanvas/MindCanvasXcodeApp/.build/index-build/arm64-apple-macosx/debug/MindCanvasXcodeApp.build/MemoryCardView.d",
+    "object": "/Users/christopherappiah-thompson/Downloads/wcs-platform-2/mindcanvas/MindCanvasXcodeApp/.build/index-build/arm64-apple-macosx/debug/MindCanvasXcodeApp.build/MemoryCardView.swift.o",
+    "swiftmodule": "/Users/christopherappiah-thompson/Downloads/wcs-platform-2/mindcanvas/MindCanvasXcodeApp/.build/index-build/arm64-apple-macosx/debug/MindCanvasXcodeApp.build/MemoryCardView~partial.swiftmodule",
+    "swift-dependencies": "/Users/christopherappiah-thompson/Downloads/wcs-platform-2/mindcanvas/MindCanvasXcodeApp/.build/index-build/arm64-apple-macosx/debug/MindCanvasXcodeApp.build/MemoryCardView.swiftdeps",
+    "diagnostics": "/Users/christopherappiah-thompson/Downloads/wcs-platform-2/mindcanvas/MindCanvasXcodeApp/.build/index-build/arm64-apple-macosx/debug/MindCanvasXcodeApp.build/MemoryCardView.dia"
+  },
+  "/Users/christopherappiah-thompson/Downloads/wcs-platform-2/mindcanvas/MindCanvasXcodeApp/Sources/MindCanvasApp.swift": {
+    "dependencies": "/Users/christopherappiah-thompson/Downloads/wcs-platform-2/mindcanvas/MindCanvasXcodeApp/.build/index-build/arm64-apple-macosx/debug/MindCanvasXcodeApp.build/MindCanvasApp.d",
+    "object": "/Users/christopherappiah-thompson/Downloads/wcs-platform-2/mindcanvas/MindCanvasXcodeApp/.build/index-build/arm64-apple-macosx/debug/MindCanvasXcodeApp.build/MindCanvasApp.swift.o",
+    "swiftmodule": "/Users/christopherappiah-thompson/Downloads/wcs-platform-2/mindcanvas/MindCanvasXcodeApp/.build/index-build/arm64-apple-macosx/debug/MindCanvasXcodeApp.build/MindCanvasApp~partial.swiftmodule",
+    "swift-dependencies": "/Users/christopherappiah-thompson/Downloads/wcs-platform-2/mindcanvas/MindCanvasXcodeApp/.build/index-build/arm64-apple-macosx/debug/MindCanvasXcodeApp.build/MindCanvasApp.swiftdeps",
+    "diagnostics": "/Users/christopherappiah-thompson/Downloads/wcs-platform-2/mindcanvas/MindCanvasXcodeApp/.build/index-build/arm64-apple-macosx/debug/MindCanvasXcodeApp.build/MindCanvasApp.dia"
+  },
+  "/Users/christopherappiah-thompson/Downloads/wcs-platform-2/mindcanvas/MindCanvasXcodeApp/Sources/MoodCheckInView.swift": {
+    "dependencies": "/Users/christopherappiah-thompson/Downloads/wcs-platform-2/mindcanvas/MindCanvasXcodeApp/.build/index-build/arm64-apple-macosx/debug/MindCanvasXcodeApp.build/MoodCheckInView.d",
+    "object": "/Users/christopherappiah-thompson/Downloads/wcs-platform-2/mindcanvas/MindCanvasXcodeApp/.build/index-build/arm64-apple-macosx/debug/MindCanvasXcodeApp.build/MoodCheckInView.swift.o",
+    "swiftmodule": "/Users/christopherappiah-thompson/Downloads/wcs-platform-2/mindcanvas/MindCanvasXcodeApp/.build/index-build/arm64-apple-macosx/debug/MindCanvasXcodeApp.build/MoodCheckInView~partial.swiftmodule",
+    "swift-dependencies": "/Users/christopherappiah-thompson/Downloads/wcs-platform-2/mindcanvas/MindCanvasXcodeApp/.build/index-build/arm64-apple-macosx/debug/MindCanvasXcodeApp.build/MoodCheckInView.swiftdeps",
+    "diagnostics": "/Users/christopherappiah-thompson/Downloads/wcs-platform-2/mindcanvas/MindCanvasXcodeApp/.build/index-build/arm64-apple-macosx/debug/MindCanvasXcodeApp.build/MoodCheckInView.dia"
+  },
+  "/Users/christopherappiah-thompson/Downloads/wcs-platform-2/mindcanvas/MindCanvasXcodeApp/Sources/NavigationTitleModifierMoodCheckIn.swift": {
+    "dependencies": "/Users/christopherappiah-thompson/Downloads/wcs-platform-2/mindcanvas/MindCanvasXcodeApp/.build/index-build/arm64-apple-macosx/debug/MindCanvasXcodeApp.build/NavigationTitleModifierMoodCheckIn.d",
+    "object": "/Users/christopherappiah-thompson/Downloads/wcs-platform-2/mindcanvas/MindCanvasXcodeApp/.build/index-build/arm64-apple-macosx/debug/MindCanvasXcodeApp.build/NavigationTitleModifierMoodCheckIn.swift.o",
+    "swiftmodule": "/Users/christopherappiah-thompson/Downloads/wcs-platform-2/mindcanvas/MindCanvasXcodeApp/.build/index-build/arm64-apple-macosx/debug/MindCanvasXcodeApp.build/NavigationTitleModifierMoodCheckIn~partial.swiftmodule",
+    "swift-dependencies": "/Users/christopherappiah-thompson/Downloads/wcs-platform-2/mindcanvas/MindCanvasXcodeApp/.build/index-build/arm64-apple-macosx/debug/MindCanvasXcodeApp.build/NavigationTitleModifierMoodCheckIn.swiftdeps",
+    "diagnostics": "/Users/christopherappiah-thompson/Downloads/wcs-platform-2/mindcanvas/MindCanvasXcodeApp/.build/index-build/arm64-apple-macosx/debug/MindCanvasXcodeApp.build/NavigationTitleModifierMoodCheckIn.dia"
+  },
+  "/Users/christopherappiah-thompson/Downloads/wcs-platform-2/mindcanvas/MindCanvasXcodeApp/Sources/OnboardingView.swift": {
+    "dependencies": "/Users/christopherappiah-thompson/Downloads/wcs-platform-2/mindcanvas/MindCanvasXcodeApp/.build/index-build/arm64-apple-macosx/debug/MindCanvasXcodeApp.build/OnboardingView.d",
+    "object": "/Users/christopherappiah-thompson/Downloads/wcs-platform-2/mindcanvas/MindCanvasXcodeApp/.build/index-build/arm64-apple-macosx/debug/MindCanvasXcodeApp.build/OnboardingView.swift.o",
+    "swiftmodule": "/Users/christopherappiah-thompson/Downloads/wcs-platform-2/mindcanvas/MindCanvasXcodeApp/.build/index-build/arm64-apple-macosx/debug/MindCanvasXcodeApp.build/OnboardingView~partial.swiftmodule",
+    "swift-dependencies": "/Users/christopherappiah-thompson/Downloads/wcs-platform-2/mindcanvas/MindCanvasXcodeApp/.build/index-build/arm64-apple-macosx/debug/MindCanvasXcodeApp.build/OnboardingView.swiftdeps",
+    "diagnostics": "/Users/christopherappiah-thompson/Downloads/wcs-platform-2/mindcanvas/MindCanvasXcodeApp/.build/index-build/arm64-apple-macosx/debug/MindCanvasXcodeApp.build/OnboardingView.dia"
+  }
+}

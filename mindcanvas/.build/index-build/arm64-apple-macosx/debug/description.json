@@ -1,6 +1,10 @@
 {
   "builtTestProducts" : [
-
+    {
+      "binaryPath" : "/Users/christopherappiah-thompson/Downloads/wcs-platform-2/mindcanvas/.build/index-build/arm64-apple-macosx/debug/MindCanvasPackageTests.xctest/Contents/MacOS/MindCanvasPackageTests",
+      "packagePath" : "/Users/christopherappiah-thompson/Downloads/wcs-platform-2/mindcanvas",
+      "productName" : "MindCanvasPackageTests"
+    }
   ],
   "copyCommands" : {
 
@@ -24,6 +28,10 @@
       "inputs" : [
         {
           "kind" : "file",
+          "name" : "/Users/christopherappiah-thompson/Downloads/wcs-platform-2/mindcanvas/Sources/CloudKitManager.swift"
+        },
+        {
+          "kind" : "file",
           "name" : "/Users/christopherappiah-thompson/Downloads/wcs-platform-2/mindcanvas/Sources/CreativeStudioView.swift"
         },
         {
@@ -40,11 +48,27 @@
         },
         {
           "kind" : "file",
+          "name" : "/Users/christopherappiah-thompson/Downloads/wcs-platform-2/mindcanvas/Sources/MemoryViewModel.swift"
+        },
+        {
+          "kind" : "file",
           "name" : "/Users/christopherappiah-thompson/Downloads/wcs-platform-2/mindcanvas/Sources/MindCanvasApp.swift"
         },
         {
           "kind" : "file",
           "name" : "/Users/christopherappiah-thompson/Downloads/wcs-platform-2/mindcanvas/Sources/MoodCheckInView.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/christopherappiah-thompson/Downloads/wcs-platform-2/mindcanvas/Sources/NavigationTitleModifierMoodCheckIn.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/christopherappiah-thompson/Downloads/wcs-platform-2/mindcanvas/Sources/OnboardingView.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/christopherappiah-thompson/Downloads/wcs-platform-2/mindcanvas/Sources/OnboardingViewModel.swift"
         },
         {
           "kind" : "file",
@@ -59,12 +83,17 @@
       "moduleName" : "MindCanvas",
       "moduleOutputPath" : "/Users/christopherappiah-thompson/Downloads/wcs-platform-2/mindcanvas/.build/index-build/arm64-apple-macosx/debug/Modules/MindCanvas.swiftmodule",
       "objects" : [
+        "/Users/christopherappiah-thompson/Downloads/wcs-platform-2/mindcanvas/.build/index-build/arm64-apple-macosx/debug/MindCanvas.build/CloudKitManager.swift.o",
         "/Users/christopherappiah-thompson/Downloads/wcs-platform-2/mindcanvas/.build/index-build/arm64-apple-macosx/debug/MindCanvas.build/CreativeStudioView.swift.o",
         "/Users/christopherappiah-thompson/Downloads/wcs-platform-2/mindcanvas/.build/index-build/arm64-apple-macosx/debug/MindCanvas.build/HomeDashboardView.swift.o",
         "/Users/christopherappiah-thompson/Downloads/wcs-platform-2/mindcanvas/.build/index-build/arm64-apple-macosx/debug/MindCanvas.build/KindStepsView.swift.o",
         "/Users/christopherappiah-thompson/Downloads/wcs-platform-2/mindcanvas/.build/index-build/arm64-apple-macosx/debug/MindCanvas.build/MemoryCardView.swift.o",
+        "/Users/christopherappiah-thompson/Downloads/wcs-platform-2/mindcanvas/.build/index-build/arm64-apple-macosx/debug/MindCanvas.build/MemoryViewModel.swift.o",
         "/Users/christopherappiah-thompson/Downloads/wcs-platform-2/mindcanvas/.build/index-build/arm64-apple-macosx/debug/MindCanvas.build/MindCanvasApp.swift.o",
-        "/Users/christopherappiah-thompson/Downloads/wcs-platform-2/mindcanvas/.build/index-build/arm64-apple-macosx/debug/MindCanvas.build/MoodCheckInView.swift.o"
+        "/Users/christopherappiah-thompson/Downloads/wcs-platform-2/mindcanvas/.build/index-build/arm64-apple-macosx/debug/MindCanvas.build/MoodCheckInView.swift.o",
+        "/Users/christopherappiah-thompson/Downloads/wcs-platform-2/mindcanvas/.build/index-build/arm64-apple-macosx/debug/MindCanvas.build/NavigationTitleModifierMoodCheckIn.swift.o",
+        "/Users/christopherappiah-thompson/Downloads/wcs-platform-2/mindcanvas/.build/index-build/arm64-apple-macosx/debug/MindCanvas.build/OnboardingView.swift.o",
+        "/Users/christopherappiah-thompson/Downloads/wcs-platform-2/mindcanvas/.build/index-build/arm64-apple-macosx/debug/MindCanvas.build/OnboardingViewModel.swift.o"
       ],
       "otherArguments" : [
         "-target",
@@ -130,14 +159,248 @@
       ],
       "prepareForIndexing" : true,
       "sources" : [
+        "/Users/christopherappiah-thompson/Downloads/wcs-platform-2/mindcanvas/Sources/CloudKitManager.swift",
         "/Users/christopherappiah-thompson/Downloads/wcs-platform-2/mindcanvas/Sources/CreativeStudioView.swift",
         "/Users/christopherappiah-thompson/Downloads/wcs-platform-2/mindcanvas/Sources/HomeDashboardView.swift",
         "/Users/christopherappiah-thompson/Downloads/wcs-platform-2/mindcanvas/Sources/KindStepsView.swift",
         "/Users/christopherappiah-thompson/Downloads/wcs-platform-2/mindcanvas/Sources/MemoryCardView.swift",
+        "/Users/christopherappiah-thompson/Downloads/wcs-platform-2/mindcanvas/Sources/MemoryViewModel.swift",
         "/Users/christopherappiah-thompson/Downloads/wcs-platform-2/mindcanvas/Sources/MindCanvasApp.swift",
-        "/Users/christopherappiah-thompson/Downloads/wcs-platform-2/mindcanvas/Sources/MoodCheckInView.swift"
+        "/Users/christopherappiah-thompson/Downloads/wcs-platform-2/mindcanvas/Sources/MoodCheckInView.swift",
+        "/Users/christopherappiah-thompson/Downloads/wcs-platform-2/mindcanvas/Sources/NavigationTitleModifierMoodCheckIn.swift",
+        "/Users/christopherappiah-thompson/Downloads/wcs-platform-2/mindcanvas/Sources/OnboardingView.swift",
+        "/Users/christopherappiah-thompson/Downloads/wcs-platform-2/mindcanvas/Sources/OnboardingViewModel.swift"
       ],
       "tempsPath" : "/Users/christopherappiah-thompson/Downloads/wcs-platform-2/mindcanvas/.build/index-build/arm64-apple-macosx/debug/MindCanvas.build",
+      "wholeModuleOptimization" : false
+    },
+    "C.MindCanvasPackageTests-arm64-apple-macosx-debug.module" : {
+      "executable" : "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc",
+      "fileList" : "/Users/christopherappiah-thompson/Downloads/wcs-platform-2/mindcanvas/.build/index-build/arm64-apple-macosx/debug/MindCanvasPackageTests.build/sources",
+      "importPath" : "/Users/christopherappiah-thompson/Downloads/wcs-platform-2/mindcanvas/.build/index-build/arm64-apple-macosx/debug/Modules",
+      "inputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/christopherappiah-thompson/Downloads/wcs-platform-2/mindcanvas/.build/index-build/arm64-apple-macosx/debug/MindCanvasPackageTests.derived/runner.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/christopherappiah-thompson/Downloads/wcs-platform-2/mindcanvas/.build/index-build/arm64-apple-macosx/debug/swift-version--58304C5D6DBC2206.txt"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/christopherappiah-thompson/Downloads/wcs-platform-2/mindcanvas/.build/index-build/arm64-apple-macosx/debug/Modules/MindCanvasTests.swiftmodule"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/christopherappiah-thompson/Downloads/wcs-platform-2/mindcanvas/.build/index-build/arm64-apple-macosx/debug/MindCanvasPackageTests.build/sources"
+        }
+      ],
+      "isLibrary" : true,
+      "moduleName" : "MindCanvasPackageTests",
+      "moduleOutputPath" : "/Users/christopherappiah-thompson/Downloads/wcs-platform-2/mindcanvas/.build/index-build/arm64-apple-macosx/debug/Modules/MindCanvasPackageTests.swiftmodule",
+      "objects" : [
+        "/Users/christopherappiah-thompson/Downloads/wcs-platform-2/mindcanvas/.build/index-build/arm64-apple-macosx/debug/MindCanvasPackageTests.build/runner.swift.o"
+      ],
+      "otherArguments" : [
+        "-target",
+        "arm64-apple-macosx10.13",
+        "-incremental",
+        "-enable-batch-mode",
+        "-serialize-diagnostics",
+        "-Onone",
+        "-enable-testing",
+        "-Xfrontend",
+        "-enable-cross-import-overlays",
+        "-j8",
+        "-DSWIFT_PACKAGE",
+        "-DDEBUG",
+        "-DSWIFT_MODULE_RESOURCE_BUNDLE_UNAVAILABLE",
+        "-module-cache-path",
+        "/Users/christopherappiah-thompson/Downloads/wcs-platform-2/mindcanvas/.build/index-build/arm64-apple-macosx/debug/ModuleCache",
+        "-parseable-output",
+        "-parse-as-library",
+        "-emit-objc-header",
+        "-emit-objc-header-path",
+        "/Users/christopherappiah-thompson/Downloads/wcs-platform-2/mindcanvas/.build/index-build/arm64-apple-macosx/debug/MindCanvasPackageTests.build/include/MindCanvasPackageTests-Swift.h",
+        "-Xfrontend",
+        "-experimental-lazy-typecheck",
+        "-Xfrontend",
+        "-experimental-skip-all-function-bodies",
+        "-Xfrontend",
+        "-experimental-allow-module-with-compiler-errors",
+        "-Xfrontend",
+        "-empty-abi-descriptor",
+        "-plugin-path",
+        "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/host/plugins/testing",
+        "-sdk",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.4.sdk",
+        "-F",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+        "-I",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+        "-L",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+        "-g",
+        "-Xcc",
+        "-isysroot",
+        "-Xcc",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.4.sdk",
+        "-Xcc",
+        "-F",
+        "-Xcc",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+        "-Xcc",
+        "-fPIC",
+        "-Xcc",
+        "-g",
+        "-package-name",
+        "mindcanvas"
+      ],
+      "outputFileMapPath" : "/Users/christopherappiah-thompson/Downloads/wcs-platform-2/mindcanvas/.build/index-build/arm64-apple-macosx/debug/MindCanvasPackageTests.build/output-file-map.json",
+      "outputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/christopherappiah-thompson/Downloads/wcs-platform-2/mindcanvas/.build/index-build/arm64-apple-macosx/debug/Modules/MindCanvasPackageTests.swiftmodule"
+        }
+      ],
+      "prepareForIndexing" : true,
+      "sources" : [
+        "/Users/christopherappiah-thompson/Downloads/wcs-platform-2/mindcanvas/.build/index-build/arm64-apple-macosx/debug/MindCanvasPackageTests.derived/runner.swift"
+      ],
+      "tempsPath" : "/Users/christopherappiah-thompson/Downloads/wcs-platform-2/mindcanvas/.build/index-build/arm64-apple-macosx/debug/MindCanvasPackageTests.build",
+      "wholeModuleOptimization" : false
+    },
+    "C.MindCanvasTests-arm64-apple-macosx-debug.module" : {
+      "executable" : "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc",
+      "fileList" : "/Users/christopherappiah-thompson/Downloads/wcs-platform-2/mindcanvas/.build/index-build/arm64-apple-macosx/debug/MindCanvasTests.build/sources",
+      "importPath" : "/Users/christopherappiah-thompson/Downloads/wcs-platform-2/mindcanvas/.build/index-build/arm64-apple-macosx/debug/Modules",
+      "inputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/christopherappiah-thompson/Downloads/wcs-platform-2/mindcanvas/Tests/CloudKitManagerTests.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/christopherappiah-thompson/Downloads/wcs-platform-2/mindcanvas/Tests/MemoryViewModelTests.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/christopherappiah-thompson/Downloads/wcs-platform-2/mindcanvas/Tests/MindCanvasTests.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/christopherappiah-thompson/Downloads/wcs-platform-2/mindcanvas/Tests/MoodCheckInTests.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/christopherappiah-thompson/Downloads/wcs-platform-2/mindcanvas/Tests/MoodCheckInViewModelTests.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/christopherappiah-thompson/Downloads/wcs-platform-2/mindcanvas/Tests/OnboardingViewModelTests.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/christopherappiah-thompson/Downloads/wcs-platform-2/mindcanvas/Tests/UIFlowTests.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/christopherappiah-thompson/Downloads/wcs-platform-2/mindcanvas/.build/index-build/arm64-apple-macosx/debug/swift-version--58304C5D6DBC2206.txt"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/christopherappiah-thompson/Downloads/wcs-platform-2/mindcanvas/.build/index-build/arm64-apple-macosx/debug/Modules/MindCanvas.swiftmodule"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/christopherappiah-thompson/Downloads/wcs-platform-2/mindcanvas/.build/index-build/arm64-apple-macosx/debug/MindCanvasTests.build/sources"
+        }
+      ],
+      "isLibrary" : true,
+      "moduleName" : "MindCanvasTests",
+      "moduleOutputPath" : "/Users/christopherappiah-thompson/Downloads/wcs-platform-2/mindcanvas/.build/index-build/arm64-apple-macosx/debug/Modules/MindCanvasTests.swiftmodule",
+      "objects" : [
+        "/Users/christopherappiah-thompson/Downloads/wcs-platform-2/mindcanvas/.build/index-build/arm64-apple-macosx/debug/MindCanvasTests.build/CloudKitManagerTests.swift.o",
+        "/Users/christopherappiah-thompson/Downloads/wcs-platform-2/mindcanvas/.build/index-build/arm64-apple-macosx/debug/MindCanvasTests.build/MemoryViewModelTests.swift.o",
+        "/Users/christopherappiah-thompson/Downloads/wcs-platform-2/mindcanvas/.build/index-build/arm64-apple-macosx/debug/MindCanvasTests.build/MindCanvasTests.swift.o",
+        "/Users/christopherappiah-thompson/Downloads/wcs-platform-2/mindcanvas/.build/index-build/arm64-apple-macosx/debug/MindCanvasTests.build/MoodCheckInTests.swift.o",
+        "/Users/christopherappiah-thompson/Downloads/wcs-platform-2/mindcanvas/.build/index-build/arm64-apple-macosx/debug/MindCanvasTests.build/MoodCheckInViewModelTests.swift.o",
+        "/Users/christopherappiah-thompson/Downloads/wcs-platform-2/mindcanvas/.build/index-build/arm64-apple-macosx/debug/MindCanvasTests.build/OnboardingViewModelTests.swift.o",
+        "/Users/christopherappiah-thompson/Downloads/wcs-platform-2/mindcanvas/.build/index-build/arm64-apple-macosx/debug/MindCanvasTests.build/UIFlowTests.swift.o"
+      ],
+      "otherArguments" : [
+        "-target",
+        "arm64-apple-macosx14.0",
+        "-incremental",
+        "-enable-batch-mode",
+        "-serialize-diagnostics",
+        "-Onone",
+        "-enable-testing",
+        "-Xfrontend",
+        "-enable-cross-import-overlays",
+        "-j8",
+        "-DSWIFT_PACKAGE",
+        "-DDEBUG",
+        "-DSWIFT_MODULE_RESOURCE_BUNDLE_UNAVAILABLE",
+        "-module-cache-path",
+        "/Users/christopherappiah-thompson/Downloads/wcs-platform-2/mindcanvas/.build/index-build/arm64-apple-macosx/debug/ModuleCache",
+        "-parseable-output",
+        "-parse-as-library",
+        "-swift-version",
+        "5",
+        "-Xfrontend",
+        "-experimental-lazy-typecheck",
+        "-Xfrontend",
+        "-experimental-skip-all-function-bodies",
+        "-Xfrontend",
+        "-experimental-allow-module-with-compiler-errors",
+        "-Xfrontend",
+        "-empty-abi-descriptor",
+        "-plugin-path",
+        "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/host/plugins/testing",
+        "-sdk",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.4.sdk",
+        "-F",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+        "-I",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+        "-L",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+        "-g",
+        "-Xcc",
+        "-isysroot",
+        "-Xcc",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.4.sdk",
+        "-Xcc",
+        "-F",
+        "-Xcc",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+        "-Xcc",
+        "-fPIC",
+        "-Xcc",
+        "-g",
+        "-package-name",
+        "mindcanvas"
+      ],
+      "outputFileMapPath" : "/Users/christopherappiah-thompson/Downloads/wcs-platform-2/mindcanvas/.build/index-build/arm64-apple-macosx/debug/MindCanvasTests.build/output-file-map.json",
+      "outputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/christopherappiah-thompson/Downloads/wcs-platform-2/mindcanvas/.build/index-build/arm64-apple-macosx/debug/Modules/MindCanvasTests.swiftmodule"
+        }
+      ],
+      "prepareForIndexing" : true,
+      "sources" : [
+        "/Users/christopherappiah-thompson/Downloads/wcs-platform-2/mindcanvas/Tests/CloudKitManagerTests.swift",
+        "/Users/christopherappiah-thompson/Downloads/wcs-platform-2/mindcanvas/Tests/MemoryViewModelTests.swift",
+        "/Users/christopherappiah-thompson/Downloads/wcs-platform-2/mindcanvas/Tests/MindCanvasTests.swift",
+        "/Users/christopherappiah-thompson/Downloads/wcs-platform-2/mindcanvas/Tests/MoodCheckInTests.swift",
+        "/Users/christopherappiah-thompson/Downloads/wcs-platform-2/mindcanvas/Tests/MoodCheckInViewModelTests.swift",
+        "/Users/christopherappiah-thompson/Downloads/wcs-platform-2/mindcanvas/Tests/OnboardingViewModelTests.swift",
+        "/Users/christopherappiah-thompson/Downloads/wcs-platform-2/mindcanvas/Tests/UIFlowTests.swift"
+      ],
+      "tempsPath" : "/Users/christopherappiah-thompson/Downloads/wcs-platform-2/mindcanvas/.build/index-build/arm64-apple-macosx/debug/MindCanvasTests.build",
       "wholeModuleOptimization" : false
     }
   },
@@ -152,12 +415,17 @@
       "-package-name",
       "mindcanvas",
       "-c",
+      "/Users/christopherappiah-thompson/Downloads/wcs-platform-2/mindcanvas/Sources/CloudKitManager.swift",
       "/Users/christopherappiah-thompson/Downloads/wcs-platform-2/mindcanvas/Sources/CreativeStudioView.swift",
       "/Users/christopherappiah-thompson/Downloads/wcs-platform-2/mindcanvas/Sources/HomeDashboardView.swift",
       "/Users/christopherappiah-thompson/Downloads/wcs-platform-2/mindcanvas/Sources/KindStepsView.swift",
       "/Users/christopherappiah-thompson/Downloads/wcs-platform-2/mindcanvas/Sources/MemoryCardView.swift",
+      "/Users/christopherappiah-thompson/Downloads/wcs-platform-2/mindcanvas/Sources/MemoryViewModel.swift",
       "/Users/christopherappiah-thompson/Downloads/wcs-platform-2/mindcanvas/Sources/MindCanvasApp.swift",
       "/Users/christopherappiah-thompson/Downloads/wcs-platform-2/mindcanvas/Sources/MoodCheckInView.swift",
+      "/Users/christopherappiah-thompson/Downloads/wcs-platform-2/mindcanvas/Sources/NavigationTitleModifierMoodCheckIn.swift",
+      "/Users/christopherappiah-thompson/Downloads/wcs-platform-2/mindcanvas/Sources/OnboardingView.swift",
+      "/Users/christopherappiah-thompson/Downloads/wcs-platform-2/mindcanvas/Sources/OnboardingViewModel.swift",
       "-I",
       "/Users/christopherappiah-thompson/Downloads/wcs-platform-2/mindcanvas/.build/index-build/arm64-apple-macosx/debug/Modules",
       "-target",
@@ -215,11 +483,155 @@
       "mindcanvas",
       "-driver-use-frontend-path",
       "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc"
+    ],
+    "MindCanvasPackageTests" : [
+      "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc",
+      "-module-name",
+      "MindCanvasPackageTests",
+      "-package-name",
+      "mindcanvas",
+      "-c",
+      "/Users/christopherappiah-thompson/Downloads/wcs-platform-2/mindcanvas/.build/index-build/arm64-apple-macosx/debug/MindCanvasPackageTests.derived/runner.swift",
+      "-I",
+      "/Users/christopherappiah-thompson/Downloads/wcs-platform-2/mindcanvas/.build/index-build/arm64-apple-macosx/debug/Modules",
+      "-target",
+      "arm64-apple-macosx10.13",
+      "-incremental",
+      "-enable-batch-mode",
+      "-serialize-diagnostics",
+      "-Onone",
+      "-enable-testing",
+      "-Xfrontend",
+      "-enable-cross-import-overlays",
+      "-j8",
+      "-DSWIFT_PACKAGE",
+      "-DDEBUG",
+      "-DSWIFT_MODULE_RESOURCE_BUNDLE_UNAVAILABLE",
+      "-module-cache-path",
+      "/Users/christopherappiah-thompson/Downloads/wcs-platform-2/mindcanvas/.build/index-build/arm64-apple-macosx/debug/ModuleCache",
+      "-parseable-output",
+      "-parse-as-library",
+      "-emit-objc-header",
+      "-emit-objc-header-path",
+      "/Users/christopherappiah-thompson/Downloads/wcs-platform-2/mindcanvas/.build/index-build/arm64-apple-macosx/debug/MindCanvasPackageTests.build/include/MindCanvasPackageTests-Swift.h",
+      "-Xfrontend",
+      "-experimental-lazy-typecheck",
+      "-Xfrontend",
+      "-experimental-skip-all-function-bodies",
+      "-Xfrontend",
+      "-experimental-allow-module-with-compiler-errors",
+      "-Xfrontend",
+      "-empty-abi-descriptor",
+      "-plugin-path",
+      "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/host/plugins/testing",
+      "-sdk",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.4.sdk",
+      "-F",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+      "-I",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+      "-L",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+      "-g",
+      "-Xcc",
+      "-isysroot",
+      "-Xcc",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.4.sdk",
+      "-Xcc",
+      "-F",
+      "-Xcc",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+      "-Xcc",
+      "-fPIC",
+      "-Xcc",
+      "-g",
+      "-package-name",
+      "mindcanvas",
+      "-driver-use-frontend-path",
+      "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc"
+    ],
+    "MindCanvasTests" : [
+      "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc",
+      "-module-name",
+      "MindCanvasTests",
+      "-package-name",
+      "mindcanvas",
+      "-c",
+      "/Users/christopherappiah-thompson/Downloads/wcs-platform-2/mindcanvas/Tests/CloudKitManagerTests.swift",
+      "/Users/christopherappiah-thompson/Downloads/wcs-platform-2/mindcanvas/Tests/MemoryViewModelTests.swift",
+      "/Users/christopherappiah-thompson/Downloads/wcs-platform-2/mindcanvas/Tests/MindCanvasTests.swift",
+      "/Users/christopherappiah-thompson/Downloads/wcs-platform-2/mindcanvas/Tests/MoodCheckInTests.swift",
+      "/Users/christopherappiah-thompson/Downloads/wcs-platform-2/mindcanvas/Tests/MoodCheckInViewModelTests.swift",
+      "/Users/christopherappiah-thompson/Downloads/wcs-platform-2/mindcanvas/Tests/OnboardingViewModelTests.swift",
+      "/Users/christopherappiah-thompson/Downloads/wcs-platform-2/mindcanvas/Tests/UIFlowTests.swift",
+      "-I",
+      "/Users/christopherappiah-thompson/Downloads/wcs-platform-2/mindcanvas/.build/index-build/arm64-apple-macosx/debug/Modules",
+      "-target",
+      "arm64-apple-macosx14.0",
+      "-incremental",
+      "-enable-batch-mode",
+      "-serialize-diagnostics",
+      "-Onone",
+      "-enable-testing",
+      "-Xfrontend",
+      "-enable-cross-import-overlays",
+      "-j8",
+      "-DSWIFT_PACKAGE",
+      "-DDEBUG",
+      "-DSWIFT_MODULE_RESOURCE_BUNDLE_UNAVAILABLE",
+      "-module-cache-path",
+      "/Users/christopherappiah-thompson/Downloads/wcs-platform-2/mindcanvas/.build/index-build/arm64-apple-macosx/debug/ModuleCache",
+      "-parseable-output",
+      "-parse-as-library",
+      "-swift-version",
+      "5",
+      "-Xfrontend",
+      "-experimental-lazy-typecheck",
+      "-Xfrontend",
+      "-experimental-skip-all-function-bodies",
+      "-Xfrontend",
+      "-experimental-allow-module-with-compiler-errors",
+      "-Xfrontend",
+      "-empty-abi-descriptor",
+      "-plugin-path",
+      "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/host/plugins/testing",
+      "-sdk",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.4.sdk",
+      "-F",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+      "-I",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+      "-L",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+      "-g",
+      "-Xcc",
+      "-isysroot",
+      "-Xcc",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.4.sdk",
+      "-Xcc",
+      "-F",
+      "-Xcc",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+      "-Xcc",
+      "-fPIC",
+      "-Xcc",
+      "-g",
+      "-package-name",
+      "mindcanvas",
+      "-driver-use-frontend-path",
+      "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc"
     ]
   },
   "targetDependencyMap" : {
     "MindCanvas" : [
 
+    ],
+    "MindCanvasPackageTests" : [
+      "MindCanvasTests",
+      "MindCanvas"
+    ],
+    "MindCanvasTests" : [
+      "MindCanvas"
     ]
   },
   "testDiscoveryCommands" : {
@@ -243,6 +655,10 @@
         },
         {
           "kind" : "file",
+          "name" : "/Users/christopherappiah-thompson/Downloads/wcs-platform-2/mindcanvas/Sources/CloudKitManager.swift"
+        },
+        {
+          "kind" : "file",
           "name" : "/Users/christopherappiah-thompson/Downloads/wcs-platform-2/mindcanvas/Sources/CreativeStudioView.swift"
         },
         {
@@ -259,14 +675,82 @@
         },
         {
           "kind" : "file",
+          "name" : "/Users/christopherappiah-thompson/Downloads/wcs-platform-2/mindcanvas/Sources/MemoryViewModel.swift"
+        },
+        {
+          "kind" : "file",
           "name" : "/Users/christopherappiah-thompson/Downloads/wcs-platform-2/mindcanvas/Sources/MindCanvasApp.swift"
         },
         {
           "kind" : "file",
           "name" : "/Users/christopherappiah-thompson/Downloads/wcs-platform-2/mindcanvas/Sources/MoodCheckInView.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/christopherappiah-thompson/Downloads/wcs-platform-2/mindcanvas/Sources/NavigationTitleModifierMoodCheckIn.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/christopherappiah-thompson/Downloads/wcs-platform-2/mindcanvas/Sources/OnboardingView.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/christopherappiah-thompson/Downloads/wcs-platform-2/mindcanvas/Sources/OnboardingViewModel.swift"
         }
       ],
       "outputFilePath" : "/Users/christopherappiah-thompson/Downloads/wcs-platform-2/mindcanvas/.build/index-build/arm64-apple-macosx/debug/MindCanvas.build/sources"
+    },
+    "/Users/christopherappiah-thompson/Downloads/wcs-platform-2/mindcanvas/.build/index-build/arm64-apple-macosx/debug/MindCanvasPackageTests.build/sources" : {
+      "alwaysOutOfDate" : false,
+      "inputs" : [
+        {
+          "kind" : "virtual",
+          "name" : "<sources-file-list>"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/christopherappiah-thompson/Downloads/wcs-platform-2/mindcanvas/.build/index-build/arm64-apple-macosx/debug/MindCanvasPackageTests.derived/runner.swift"
+        }
+      ],
+      "outputFilePath" : "/Users/christopherappiah-thompson/Downloads/wcs-platform-2/mindcanvas/.build/index-build/arm64-apple-macosx/debug/MindCanvasPackageTests.build/sources"
+    },
+    "/Users/christopherappiah-thompson/Downloads/wcs-platform-2/mindcanvas/.build/index-build/arm64-apple-macosx/debug/MindCanvasTests.build/sources" : {
+      "alwaysOutOfDate" : false,
+      "inputs" : [
+        {
+          "kind" : "virtual",
+          "name" : "<sources-file-list>"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/christopherappiah-thompson/Downloads/wcs-platform-2/mindcanvas/Tests/CloudKitManagerTests.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/christopherappiah-thompson/Downloads/wcs-platform-2/mindcanvas/Tests/MemoryViewModelTests.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/christopherappiah-thompson/Downloads/wcs-platform-2/mindcanvas/Tests/MindCanvasTests.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/christopherappiah-thompson/Downloads/wcs-platform-2/mindcanvas/Tests/MoodCheckInTests.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/christopherappiah-thompson/Downloads/wcs-platform-2/mindcanvas/Tests/MoodCheckInViewModelTests.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/christopherappiah-thompson/Downloads/wcs-platform-2/mindcanvas/Tests/OnboardingViewModelTests.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/christopherappiah-thompson/Downloads/wcs-platform-2/mindcanvas/Tests/UIFlowTests.swift"
+        }
+      ],
+      "outputFilePath" : "/Users/christopherappiah-thompson/Downloads/wcs-platform-2/mindcanvas/.build/index-build/arm64-apple-macosx/debug/MindCanvasTests.build/sources"
     },
     "/Users/christopherappiah-thompson/Downloads/wcs-platform-2/mindcanvas/.build/index-build/arm64-apple-macosx/debug/swift-version--58304C5D6DBC2206.txt" : {
       "alwaysOutOfDate" : true,

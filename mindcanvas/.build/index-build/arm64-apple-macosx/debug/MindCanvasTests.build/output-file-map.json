@@ -1,0 +1,54 @@
+{
+  "": {
+    "swift-dependencies": "/Users/christopherappiah-thompson/Downloads/wcs-platform-2/mindcanvas/.build/index-build/arm64-apple-macosx/debug/MindCanvasTests.build/primary.swiftdeps"
+  },
+  "/Users/christopherappiah-thompson/Downloads/wcs-platform-2/mindcanvas/Tests/CloudKitManagerTests.swift": {
+    "dependencies": "/Users/christopherappiah-thompson/Downloads/wcs-platform-2/mindcanvas/.build/index-build/arm64-apple-macosx/debug/MindCanvasTests.build/CloudKitManagerTests.d",
+    "object": "/Users/christopherappiah-thompson/Downloads/wcs-platform-2/mindcanvas/.build/index-build/arm64-apple-macosx/debug/MindCanvasTests.build/CloudKitManagerTests.swift.o",
+    "swiftmodule": "/Users/christopherappiah-thompson/Downloads/wcs-platform-2/mindcanvas/.build/index-build/arm64-apple-macosx/debug/MindCanvasTests.build/CloudKitManagerTests~partial.swiftmodule",
+    "swift-dependencies": "/Users/christopherappiah-thompson/Downloads/wcs-platform-2/mindcanvas/.build/index-build/arm64-apple-macosx/debug/MindCanvasTests.build/CloudKitManagerTests.swiftdeps",
+    "diagnostics": "/Users/christopherappiah-thompson/Downloads/wcs-platform-2/mindcanvas/.build/index-build/arm64-apple-macosx/debug/MindCanvasTests.build/CloudKitManagerTests.dia"
+  },
+  "/Users/christopherappiah-thompson/Downloads/wcs-platform-2/mindcanvas/Tests/MemoryViewModelTests.swift": {
+    "dependencies": "/Users/christopherappiah-thompson/Downloads/wcs-platform-2/mindcanvas/.build/index-build/arm64-apple-macosx/debug/MindCanvasTests.build/MemoryViewModelTests.d",
+    "object": "/Users/christopherappiah-thompson/Downloads/wcs-platform-2/mindcanvas/.build/index-build/arm64-apple-macosx/debug/MindCanvasTests.build/MemoryViewModelTests.swift.o",
+    "swiftmodule": "/Users/christopherappiah-thompson/Downloads/wcs-platform-2/mindcanvas/.build/index-build/arm64-apple-macosx/debug/MindCanvasTests.build/MemoryViewModelTests~partial.swiftmodule",
+    "swift-dependencies": "/Users/christopherappiah-thompson/Downloads/wcs-platform-2/mindcanvas/.build/index-build/arm64-apple-macosx/debug/MindCanvasTests.build/MemoryViewModelTests.swiftdeps",
+    "diagnostics": "/Users/christopherappiah-thompson/Downloads/wcs-platform-2/mindcanvas/.build/index-build/arm64-apple-macosx/debug/MindCanvasTests.build/MemoryViewModelTests.dia"
+  },
+  "/Users/christopherappiah-thompson/Downloads/wcs-platform-2/mindcanvas/Tests/MindCanvasTests.swift": {
+    "dependencies": "/Users/christopherappiah-thompson/Downloads/wcs-platform-2/mindcanvas/.build/index-build/arm64-apple-macosx/debug/MindCanvasTests.build/MindCanvasTests.d",
+    "object": "/Users/christopherappiah-thompson/Downloads/wcs-platform-2/mindcanvas/.build/index-build/arm64-apple-macosx/debug/MindCanvasTests.build/MindCanvasTests.swift.o",
+    "swiftmodule": "/Users/christopherappiah-thompson/Downloads/wcs-platform-2/mindcanvas/.build/index-build/arm64-apple-macosx/debug/MindCanvasTests.build/MindCanvasTests~partial.swiftmodule",
+    "swift-dependencies": "/Users/christopherappiah-thompson/Downloads/wcs-platform-2/mindcanvas/.build/index-build/arm64-apple-macosx/debug/MindCanvasTests.build/MindCanvasTests.swiftdeps",
+    "diagnostics": "/Users/christopherappiah-thompson/Downloads/wcs-platform-2/mindcanvas/.build/index-build/arm64-apple-macosx/debug/MindCanvasTests.build/MindCanvasTests.dia"
+  },
+  "/Users/christopherappiah-thompson/Downloads/wcs-platform-2/mindcanvas/Tests/MoodCheckInTests.swift": {
+    "dependencies": "/Users/christopherappiah-thompson/Downloads/wcs-platform-2/mindcanvas/.build/index-build/arm64-apple-macosx/debug/MindCanvasTests.build/MoodCheckInTests.d",
+    "object": "/Users/christopherappiah-thompson/Downloads/wcs-platform-2/mindcanvas/.build/index-build/arm64-apple-macosx/debug/MindCanvasTests.build/MoodCheckInTests.swift.o",
+    "swiftmodule": "/Users/christopherappiah-thompson/Downloads/wcs-platform-2/mindcanvas/.build/index-build/arm64-apple-macosx/debug/MindCanvasTests.build/MoodCheckInTests~partial.swiftmodule",
+    "swift-dependencies": "/Users/christopherappiah-thompson/Downloads/wcs-platform-2/mindcanvas/.build/index-build/arm64-apple-macosx/debug/MindCanvasTests.build/MoodCheckInTests.swiftdeps",
+    "diagnostics": "/Users/christopherappiah-thompson/Downloads/wcs-platform-2/mindcanvas/.build/index-build/arm64-apple-macosx/debug/MindCanvasTests.build/MoodCheckInTests.dia"
+  },
+  "/Users/christopherappiah-thompson/Downloads/wcs-platform-2/mindcanvas/Tests/MoodCheckInViewModelTests.swift": {
+    "dependencies": "/Users/christopherappiah-thompson/Downloads/wcs-platform-2/mindcanvas/.build/index-build/arm64-apple-macosx/debug/MindCanvasTests.build/MoodCheckInViewModelTests.d",
+    "object": "/Users/christopherappiah-thompson/Downloads/wcs-platform-2/mindcanvas/.build/index-build/arm64-apple-macosx/debug/MindCanvasTests.build/MoodCheckInViewModelTests.swift.o",
+    "swiftmodule": "/Users/christopherappiah-thompson/Downloads/wcs-platform-2/mindcanvas/.build/index-build/arm64-apple-macosx/debug/MindCanvasTests.build/MoodCheckInViewModelTests~partial.swiftmodule",
+    "swift-dependencies": "/Users/christopherappiah-thompson/Downloads/wcs-platform-2/mindcanvas/.build/index-build/arm64-apple-macosx/debug/MindCanvasTests.build/MoodCheckInViewModelTests.swiftdeps",
+    "diagnostics": "/Users/christopherappiah-thompson/Downloads/wcs-platform-2/mindcanvas/.build/index-build/arm64-apple-macosx/debug/MindCanvasTests.build/MoodCheckInViewModelTests.dia"
+  },
+  "/Users/christopherappiah-thompson/Downloads/wcs-platform-2/mindcanvas/Tests/OnboardingViewModelTests.swift": {
+    "dependencies": "/Users/christopherappiah-thompson/Downloads/wcs-platform-2/mindcanvas/.build/index-build/arm64-apple-macosx/debug/MindCanvasTests.build/OnboardingViewModelTests.d",
+    "object": "/Users/christopherappiah-thompson/Downloads/wcs-platform-2/mindcanvas/.build/index-build/arm64-apple-macosx/debug/MindCanvasTests.build/OnboardingViewModelTests.swift.o",
+    "swiftmodule": "/Users/christopherappiah-thompson/Downloads/wcs-platform-2/mindcanvas/.build/index-build/arm64-apple-macosx/debug/MindCanvasTests.build/OnboardingViewModelTests~partial.swiftmodule",
+    "swift-dependencies": "/Users/christopherappiah-thompson/Downloads/wcs-platform-2/mindcanvas/.build/index-build/arm64-apple-macosx/debug/MindCanvasTests.build/OnboardingViewModelTests.swiftdeps",
+    "diagnostics": "/Users/christopherappiah-thompson/Downloads/wcs-platform-2/mindcanvas/.build/index-build/arm64-apple-macosx/debug/MindCanvasTests.build/OnboardingViewModelTests.dia"
+  },
+  "/Users/christopherappiah-thompson/Downloads/wcs-platform-2/mindcanvas/Tests/UIFlowTests.swift": {
+    "dependencies": "/Users/christopherappiah-thompson/Downloads/wcs-platform-2/mindcanvas/.build/index-build/arm64-apple-macosx/debug/MindCanvasTests.build/UIFlowTests.d",
+    "object": "/Users/christopherappiah-thompson/Downloads/wcs-platform-2/mindcanvas/.build/index-build/arm64-apple-macosx/debug/MindCanvasTests.build/UIFlowTests.swift.o",
+    "swiftmodule": "/Users/christopherappiah-thompson/Downloads/wcs-platform-2/mindcanvas/.build/index-build/arm64-apple-macosx/debug/MindCanvasTests.build/UIFlowTests~partial.swiftmodule",
+    "swift-dependencies": "/Users/christopherappiah-thompson/Downloads/wcs-platform-2/mindcanvas/.build/index-build/arm64-apple-macosx/debug/MindCanvasTests.build/UIFlowTests.swiftdeps",
+    "diagnostics": "/Users/christopherappiah-thompson/Downloads/wcs-platform-2/mindcanvas/.build/index-build/arm64-apple-macosx/debug/MindCanvasTests.build/UIFlowTests.dia"
+  }
+}

@@ -1,0 +1,5 @@
+# Ignore build products
+.build/
+DerivedData/
+*.xcworkspace
+*.xcodeproj

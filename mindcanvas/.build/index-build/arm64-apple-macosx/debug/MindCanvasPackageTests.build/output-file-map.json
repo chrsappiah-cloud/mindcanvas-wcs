@@ -1,0 +1,12 @@
+{
+  "": {
+    "swift-dependencies": "/Users/christopherappiah-thompson/Downloads/wcs-platform-2/mindcanvas/.build/index-build/arm64-apple-macosx/debug/MindCanvasPackageTests.build/primary.swiftdeps"
+  },
+  "/Users/christopherappiah-thompson/Downloads/wcs-platform-2/mindcanvas/.build/index-build/arm64-apple-macosx/debug/MindCanvasPackageTests.derived/runner.swift": {
+    "dependencies": "/Users/christopherappiah-thompson/Downloads/wcs-platform-2/mindcanvas/.build/index-build/arm64-apple-macosx/debug/MindCanvasPackageTests.build/runner.d",
+    "object": "/Users/christopherappiah-thompson/Downloads/wcs-platform-2/mindcanvas/.build/index-build/arm64-apple-macosx/debug/MindCanvasPackageTests.build/runner.swift.o",
+    "swiftmodule": "/Users/christopherappiah-thompson/Downloads/wcs-platform-2/mindcanvas/.build/index-build/arm64-apple-macosx/debug/MindCanvasPackageTests.build/runner~partial.swiftmodule",
+    "swift-dependencies": "/Users/christopherappiah-thompson/Downloads/wcs-platform-2/mindcanvas/.build/index-build/arm64-apple-macosx/debug/MindCanvasPackageTests.build/runner.swiftdeps",
+    "diagnostics": "/Users/christopherappiah-thompson/Downloads/wcs-platform-2/mindcanvas/.build/index-build/arm64-apple-macosx/debug/MindCanvasPackageTests.build/runner.dia"
+  }
+}
