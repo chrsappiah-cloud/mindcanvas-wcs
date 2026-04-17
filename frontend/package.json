@@ -1,1 +1,6 @@
-{"name":"wcs-frontend","scripts":{}}
+{
+	"name": "wcs-frontend",
+	"scripts": {
+		"dev": "vite"
+	}
+}

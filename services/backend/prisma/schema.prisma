@@ -1,0 +1,28 @@
+// Prisma schema for SQLite
+// Run: npx prisma generate && npx prisma db push
+
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "sqlite"
+  url      = env("DATABASE_URL")
+}
+
+model Image {
+  id        Int      @id @default(autoincrement())
+  prompt    String
+  imageUrl  String
+  provider  String?
+  format    String?
+  created   DateTime @default(now())
+}
+
+model Contact {
+  id      Int      @id @default(autoincrement())
+  name    String
+  email   String
+  message String
+  created DateTime @default(now())
+}

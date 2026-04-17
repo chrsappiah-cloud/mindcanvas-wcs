@@ -1,3 +1,11 @@
 node_modules/
 .env
 .DS_Store
+
+# Ignore build and cache folders
+build/
+.build/
+cache/
+.cache/
+.next/
+dist/

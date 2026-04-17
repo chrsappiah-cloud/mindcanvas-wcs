@@ -1,1 +1,1 @@
-{"name":"wcs-backend","scripts":{"dev":"fastify start -l info -P 3001","build":"tsc"}}
+{"name":"wcs-backend","scripts":{"dev":"node server.js","build":"tsc"},"dependencies":{"@fastify/cors":"^8.5.0","@fastify/rate-limit":"^7.6.0"},"devDependencies":{"fastify":"^4.29.1","fastify-cli":"^8.0.0"}}
