@@ -1,0 +1,438 @@
+1
+Crash-Safe SwiftUI MVVM Codebase for Dementia Therapy
+App
+This version fixes the most likely launch crash sources in SwiftData by simplifying model types, avoiding risky
+stored-property initializers, and using a safer `modelContainer(for:)` setup.
+Files
+ `DementiaTherapyApp.swift`
+ `Models.swift`
+ `HealthManager.swift`
+ `ContentView.swift`
+ `PaintingView.swift`
+ `MediaLibraryView.swift`
+ `SessionsView.swift`
+ `Helpers.swift`
+DementiaTherapyApp.swift
+import SwiftUI
+import SwiftData
+@main
+struct DementiaTherapyApp: App {
+    var body: some Scene {
+        WindowGroup {
+            ContentView()
+        }
+        .modelContainer(for: [TherapySession.self, PatientProfile.self, MediaItem.self])
+    }
+}
+Models.swift
+import Foundation
+import SwiftData
+enum Mood: String, Codable, CaseIterable {
+    case happy, calm, neutral, anxious, sad
+}
+enum ActivityType: String, Codable, CaseIterable {
+    case painting, music, video, photo
+}
+enum MediaType: String, Codable, CaseIterable {
+    case video, audio, image
+}
+@Model
+final class TherapySession {
+    var id: UUID
+    var date: Date
+    var moodRaw: String
+    var duration: Double
+    var activityTypeRaw: String
+2
+    var drawingsData: Data?
+    var mediaFileURLStrings: [String]
+    var notes: String?
+    init(
+        id: UUID = UUID(),
+        date: Date = .now,
+        mood: Mood = .neutral,
+        duration: Double = 0,
+        activityType: ActivityType = .painting,
+        drawingsData: Data? = nil,
+        mediaFileURLStrings: [String] = [],
+        notes: String? = nil
+    ) {
+        self.id = id
+        self.date = date
+        self.moodRaw = mood.rawValue
+        self.duration = duration
+        self.activityTypeRaw = activityType.rawValue
+        self.drawingsData = drawingsData
+        self.mediaFileURLStrings = mediaFileURLStrings
+        self.notes = notes
+    }
+    var mood: Mood {
+        Mood(rawValue: moodRaw) ?? .neutral
+    }
+    var activityType: ActivityType {
+        ActivityType(rawValue: activityTypeRaw) ?? .painting
+    }
+}
+@Model
+final class PatientProfile {
+    var id: UUID
+    var name: String
+    var caregiverName: String?
+    init(id: UUID = UUID(), name: String, caregiverName: String? = nil) {
+        self.id = id
+        self.name = name
+        self.caregiverName = caregiverName
+    }
+}
+@Model
+final class MediaItem {
+    var id: UUID
+    var title: String
+    var fileURLString: String?
+    var thumbnailData: Data?
+    var duration: Double
+    var mediaTypeRaw: String
+    var category: String
+    init(
+        id: UUID = UUID(),
+        title: String,
+        fileURLString: String? = nil,
+        thumbnailData: Data? = nil,
+        duration: Double = 0,
+        mediaType: MediaType,
+        category: String
+    ) {
+        self.id = id
+        self.title = title
+        self.fileURLString = fileURLString
+        self.thumbnailData = thumbnailData
+        self.duration = duration
+        self.mediaTypeRaw = mediaType.rawValue
+        self.category = category
+    }
+    var fileURL: URL? {
+3
+        guard let fileURLString else { return nil }
+        return URL(string: fileURLString)
+    }
+    var mediaType: MediaType {
+        MediaType(rawValue: mediaTypeRaw) ?? .image
+    }
+}
+HealthManager.swift
+import Foundation
+import HealthKit
+@MainActor
+final class HealthManager: ObservableObject {
+    private let store = HKHealthStore()
+    func requestAuthorization() async {
+        guard HKHealthStore.isHealthDataAvailable() else { return }
+        let readTypes: Set<HKObjectType> = []
+        do {
+            try await store.requestAuthorization(toShare: [], read: readTypes)
+        } catch {
+            print("HealthKit authorization failed: \(error)")
+        }
+    }
+}
+Helpers.swift
+import SwiftUI
+import AVKit
+extension Mood {
+    var color: Color {
+        switch self {
+        case .happy: return .yellow
+        case .calm: return .green
+        case .neutral: return .gray
+        case .anxious: return .orange
+        case .sad: return .blue
+        }
+    }
+}
+extension ActivityType {
+    var icon: String {
+        switch self {
+        case .painting: return "paintbrush"
+        case .music: return "music.note"
+        case .video: return "video"
+        case .photo: return "photo"
+        }
+    }
+}
+extension MediaType {
+    var icon: String {
+        switch self {
+        case .video: return "video"
+        case .audio: return "waveform"
+        case .image: return "photo"
+        }
+    }
+}
+4
+ContentView.swift
+import SwiftUI
+import SwiftData
+struct ContentView: View {
+    @Environment(HealthManager.self) private var healthManager
+    @Query private var profiles: [PatientProfile]
+    @State private var selectedTab = 0
+    @State private var showingProfileSetup = false
+    var body: some View {
+        TabView(selection: $selectedTab) {
+            PaintingView()
+                .tabItem { Label("Paint", systemImage: "paintbrush") }
+                .tag(0)
+            MediaLibraryView()
+                .tabItem { Label("Media", systemImage: "photo.on.rectangle") }
+                .tag(1)
+            SessionsView()
+                .tabItem { Label("Sessions", systemImage: "calendar") }
+                .tag(2)
+        }
+        .task {
+            await healthManager.requestAuthorization()
+        }
+        .onAppear {
+            if profiles.isEmpty {
+                showingProfileSetup = true
+            }
+        }
+        .sheet(isPresented: $showingProfileSetup) {
+            ProfileSetupView()
+        }
+    }
+}
+struct ProfileSetupView: View {
+    @Environment(\.dismiss) private var dismiss
+    @Environment(\.modelContext) private var modelContext
+    @State private var name = ""
+    @State private var caregiverName = ""
+    var body: some View {
+        NavigationStack {
+            Form {
+                Section("Patient") {
+                    TextField("Name", text: $name)
+                    TextField("Caregiver", text: $caregiverName)
+                }
+                Button("Create Profile") {
+                    let profile = PatientProfile(
+                        name: name.trimmingCharacters(in: .whitespacesAndNewlines),
+                        caregiverName: caregiverName.isEmpty ? nil : caregiverName
+                    )
+                    modelContext.insert(profile)
+                    try? modelContext.save()
+                    dismiss()
+                }
+                .disabled(name.trimmingCharacters(in: .whitespacesAndNewlines).isEmpty)
+            }
+            .navigationTitle("Setup")
+        }
+    }
+}
+5
+PaintingView.swift
+import SwiftUI
+import PencilKit
+import SwiftData
+struct PaintingView: View {
+    @Environment(\.modelContext) private var modelContext
+    @Environment(HealthManager.self) private var healthManager
+    @State private var canvasView = PKCanvasView()
+    @State private var inkType: PKInkingTool.InkType = .pen
+    @State private var selectedColor: Color = .black
+    @State private var isSessionActive = false
+    @State private var sessionStart = Date()
+    @State private var selectedMood: Mood = .neutral
+    @State private var notes = ""
+    @State private var showMoodSheet = false
+    var body: some View {
+        NavigationStack {
+            VStack(spacing: 16) {
+                CanvasHost(canvasView: $canvasView)
+                    .frame(maxHeight: .infinity)
+                    .overlay(RoundedRectangle(cornerRadius: 16).stroke(.gray.opacity(0.3)))
+                    .padding()
+                HStack {
+                    ForEach([Color.black, .red, .blue, .green, .orange, .purple], id: \.self) { c in
+                        Circle()
+                            .fill(c)
+                            .frame(width: 32, height: 32)
+                            .onTapGesture {
+                                selectedColor = c
+                                applyTool()
+                            }
+                    }
+                }
+                HStack {
+                    Button(isSessionActive ? "End Session" : "Start Session") {
+                        if isSessionActive {
+                            showMoodSheet = true
+                        } else {
+                            isSessionActive = true
+                            sessionStart = Date()
+                        }
+                    }
+                    .buttonStyle(.borderedProminent)
+                    Button("Clear") {
+                        canvasView.drawing = PKDrawing()
+                    }
+                    .buttonStyle(.bordered)
+                }
+                .padding(.bottom)
+            }
+            .navigationTitle("Painting")
+            .sheet(isPresented: $showMoodSheet) {
+                NavigationStack {
+                    Form {
+                        Picker("Mood", selection: $selectedMood) {
+                            ForEach(Mood.allCases, id: \.self) { mood in
+                                Text(mood.rawValue.capitalized).tag(mood)
+                            }
+                        }
+                        TextField("Notes", text: $notes, axis: .vertical)
+                        Button("Save") {
+                            saveSession()
+                            showMoodSheet = false
+                            isSessionActive = false
+                        }
+                    }
+                    .navigationTitle("Session")
+                }
+            }
+6
+            .onAppear {
+                applyTool()
+            }
+        }
+    }
+    private func applyTool() {
+        canvasView.tool = PKInkingTool(inkType, color: UIColor(selectedColor), width: 5)
+        canvasView.drawingPolicy = .anyInput
+    }
+    private func saveSession() {
+        let duration = Date().timeIntervalSince(sessionStart)
+        let data = try? NSKeyedArchiver.archivedData(withRootObject: canvasView.drawing, requiringSecureCoding: true)
+        let session = TherapySession(
+            mood: selectedMood,
+            duration: duration,
+            activityType: .painting,
+            drawingsData: data,
+            notes: notes.isEmpty ? nil : notes
+        )
+        modelContext.insert(session)
+        try? modelContext.save()
+    }
+}
+struct CanvasHost: UIViewRepresentable {
+    @Binding var canvasView: PKCanvasView
+    func makeUIView(context: Context) -> PKCanvasView {
+        canvasView.backgroundColor = .white
+        canvasView.isOpaque = true
+        canvasView.drawingPolicy = .anyInput
+        return canvasView
+    }
+    func updateUIView(_ uiView: PKCanvasView, context: Context) {}
+}
+MediaLibraryView.swift
+import SwiftUI
+import SwiftData
+import AVKit
+struct MediaLibraryView: View {
+    @Query private var items: [MediaItem]
+    @State private var selectedItem: MediaItem?
+    var body: some View {
+        NavigationStack {
+            List(items) { item in
+                Button {
+                    selectedItem = item
+                } label: {
+                    HStack {
+                        Image(systemName: item.mediaType.icon)
+                        VStack(alignment: .leading) {
+                            Text(item.title)
+                            Text(item.category).font(.caption).foregroundStyle(.secondary)
+                        }
+                    }
+                }
+            }
+            .navigationTitle("Media")
+            .sheet(item: $selectedItem) { item in
+                MediaPlayerView(item: item)
+            }
+        }
+    }
+}
+7
+struct MediaPlayerView: View {
+    let item: MediaItem
+    @State private var player = AVPlayer()
+    var body: some View {
+        VStack(spacing: 16) {
+            if item.mediaType == .video {
+                VideoPlayer(player: player)
+                    .frame(height: 280)
+            } else {
+                Image(systemName: item.mediaType.icon)
+                    .font(.system(size: 64))
+                    .frame(height: 280)
+            }
+            HStack {
+                Button("Play") { player.play() }
+                Button("Pause") { player.pause() }
+            }
+        }
+        .padding()
+        .onAppear {
+            if let url = item.fileURL {
+                player = AVPlayer(url: url)
+            }
+        }
+    }
+}
+SessionsView.swift
+import SwiftUI
+import SwiftData
+struct SessionsView: View {
+    @Query(sort: \TherapySession.date, order: .reverse) private var sessions: [TherapySession]
+    var body: some View {
+        NavigationStack {
+            List(sessions) { session in
+                VStack(alignment: .leading, spacing: 6) {
+                    Text(session.activityType.rawValue.capitalized)
+                        .font(.headline)
+                    Text("Mood: \(session.mood.rawValue.capitalized)")
+                    Text("Duration: \(Int(session.duration)) sec")
+                        .font(.caption)
+                        .foregroundStyle(.secondary)
+                }
+            }
+            .navigationTitle("Sessions")
+        }
+    }
+}
+Crash Fix Notes
+Why this version is safer
+ It avoids `try!` in app startup.
+ It stores enums as raw strings instead of direct custom SwiftData properties.
+ It stores file references as strings rather than complex URL arrays.
+ It keeps HealthKit minimal until the app runs reliably.
+8
+If your old app still crashes
+ Delete the app from the simulator.
+ Clean build folder in Xcode.
+ Delete Derived Data.
+ Remove the persistent store if schema changed.
+ Rebuild from a fresh simulator install.
+Required Xcode Steps
+1. Create a new SwiftUI app.
+2. Add these files.
+3. Enable only the capabilities you truly use.
+4. Add Info.plist usage descriptions for Photos, Camera, and HealthKit only if needed.
+5. Run on simulator first.
+Extra Stabilization
+If you want even more safety, start with:
+ one model only,
+ one screen only,
+ no HealthKit yet,
+ no PencilKit persistence yet,
+ no media autoplay until launch works.

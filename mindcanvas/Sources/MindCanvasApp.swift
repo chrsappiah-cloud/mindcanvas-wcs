@@ -11,6 +11,9 @@ public struct MindCanvasApp: App {
             if hasSeenOnboarding {
                 HomeDashboardView()
                     .environmentObject(cloudKitManager)
+                    .onAppear {
+                        DemoDataSeeder.seedIfNeeded()
+                    }
             } else {
                 OnboardingView {
                     hasSeenOnboarding = true
