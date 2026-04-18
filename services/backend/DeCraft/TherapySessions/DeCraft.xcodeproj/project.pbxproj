@@ -1,0 +1,4 @@
+// ! This is a minimal Xcode project file for DeCraft (TherapySessions)
+// You should open this in Xcode and configure targets, schemes, and settings as needed.
+// This file is a placeholder to enable CI and Xcode project recognition.
+// For a real project, generate with Xcode or Tuist for full configuration.

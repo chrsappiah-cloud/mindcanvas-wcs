@@ -1,0 +1,31 @@
+name: iOS DeCraft CI
+
+on:
+  push:
+    paths:
+      - 'services/backend/DeCraft/TherapySessions/DeCraft.xcodeproj/**'
+      - 'services/backend/DeCraft/TherapySessions/DeCraft/**'
+      - '.github/workflows/ios-decraft.yml'
+  pull_request:
+    paths:
+      - 'services/backend/DeCraft/TherapySessions/DeCraft.xcodeproj/**'
+      - 'services/backend/DeCraft/TherapySessions/DeCraft/**'
+      - '.github/workflows/ios-decraft.yml'
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: macos-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+      - name: Set up Xcode
+        uses: maxim-lobanov/setup-xcode@v1
+        with:
+          xcode-version: latest-stable
+      - name: Build DeCraft app
+        run: |
+          xcodebuild -project services/backend/DeCraft/TherapySessions/DeCraft.xcodeproj -scheme DeCraft -sdk iphonesimulator -destination 'platform=iOS Simulator,name=iPhone 15' build
+      - name: List build products
+        run: |
+          ls -R ~/Library/Developer/Xcode/DerivedData || true
